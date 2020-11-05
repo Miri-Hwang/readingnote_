@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "423027695303",
+    "firebase_url": "https://readingnote-10b27.firebaseio.com",
+    "project_id": "readingnote-10b27",
+    "storage_bucket": "readingnote-10b27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423027695303:android:066fc4d5401b4fb83328e2",
+        "android_client_info": {
+          "package_name": "com.example.readingnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423027695303-0npntapg0tukk2n5nbc418oc46nnhv4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.readingnote",
+            "certificate_hash": "df5de10fcef98bc583a4a582f9e55847806b7a64"
+          }
+        },
+        {
+          "client_id": "423027695303-sqd78988m8hj5ko0vp4nhnq553biljqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9bvQL9m2SvprubJpmVnqh4Tb9SOdY3s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423027695303-sqd78988m8hj5ko0vp4nhnq553biljqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

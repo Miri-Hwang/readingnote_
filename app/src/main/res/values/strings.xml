@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ReadingNote</string>
+    <string name="my_library">Library</string>
+    <string name="my_chart">Chart</string>
+    <string name="my_page">Mypage</string>
+    <string name="kakao_app_key">3d8374aaf7cb4de5036afa1998a80a17</string>
+    <string name="server_client_id">server_client_id</string>
+</resources>

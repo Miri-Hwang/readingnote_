@@ -560,23 +560,25 @@ public class Book_ing_detail extends AppCompatActivity {
 
         //기록 불러와서 저장하기 시작
         String savedrecords = sharedPreferences.getString("기록",null);
-        try {
-            JSONArray jsonArray = new JSONArray(savedrecords);
-            //jsonarray key값 가져오기 시작
-            for(int i = 0; i<=jsonArray.length(); i++){
-                JSONObject json = jsonArray.getJSONObject(i);
-                Iterator<String> keys = json.keys();
-                while(keys.hasNext()){
-                    String key = keys.next();
-                    recordlist.put(key, Integer.parseInt(json.get(key).toString()));
-                    Log.e("572", recordlist.get(key).toString() );
+        if(savedrecords!=null) {
+            try {
+                JSONArray jsonArray = new JSONArray(savedrecords);
+                //jsonarray key값 가져오기 시작
+                for (int i = 0; i <= jsonArray.length(); i++) {
+                    JSONObject json = jsonArray.getJSONObject(i);
+                    Iterator<String> keys = json.keys();
+                    while (keys.hasNext()) {
+                        String key = keys.next();
+                        recordlist.put(key, Integer.parseInt(json.get(key).toString()));
+                        Log.e("572", recordlist.get(key).toString());
+                    }
                 }
+
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
-
-        } catch (JSONException e) {
-            e.printStackTrace();
         }
-
+        
         //기록 불러와서 저장하기 종료
     }
 
